@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: online-inference-k8
+spec:
+  selector:
+    matchLabels:
+      app: online-inference-k8
+  template:
+    metadata:
+      labels:
+        app: online-inference-k8
+    spec:
+      containers:
+      - name: online-inference-k8
+        image: online-inference-k8
+        imagePullPolicy: Never
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8000
