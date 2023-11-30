@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='hw_pp',
-    version='0.0.4',
+    version='0.1.0',
     description="A small example package for iris prediction app",
     classifiers = [
         "Programming Language :: Python :: 3",
