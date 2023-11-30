@@ -16,6 +16,7 @@ setup(
     packages=['hw_pp'],
     install_requires=[
         "pandas==2.0.3",
+        "anyio==3.6.1",
         "pydantic==1.10.12",
         "ruamel-yaml==0.17.32",
         "fastapi[all]==0.85.2",
