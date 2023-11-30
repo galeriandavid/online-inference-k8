@@ -1,9 +1,10 @@
 from fastapi import FastAPI
 from typing import List
+import uvicorn
 
-from src import PARAMS
-from src.app.models import RequestBody, ResponseBody
-from src.model import Model
+from hw_pp import PARAMS
+from hw_pp.app.models import RequestBody, ResponseBody
+from hw_pp.model import Model
 
 
 
@@ -23,3 +24,9 @@ async def predict(samples: List[RequestBody]) -> ResponseBody:
     """
     predictions = await model.predict(samples)
     return ResponseBody.parse_obj(predictions)
+
+def main():
+    uvicorn.run("hw_pp.app.server:app", host="0.0.0.0", port=8000, reload=True)
+
+if __name__ == "__main__":
+    main()

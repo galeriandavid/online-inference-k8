@@ -1,3 +1,8 @@
+<div>
+    <a href="https://github.com/galeriandavid/online-inference-k8/actions/workflows/test.yaml"><img src="https://github.com/galeriandavid/online-inference-k8/actions/workflows/test.yaml/badge.svg"></a>
+    <a href="https://github.com/galeriandavid/online-inference-k8/actions/workflows/pypi.yaml"><img src="https://github.com/galeriandavid/online-inference-k8/actions/workflows/pypi.yaml/badge.svg"></a>
+</div>
+
 ## Online inference with FastAPI and kubernetes
 
 Repository provides an example of running online inference with FastAPI and kubernetes

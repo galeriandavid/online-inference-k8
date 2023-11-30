@@ -2,8 +2,8 @@ from joblib import load
 import pandas as pd
 import logging
 
-from src import PARAMS
-from src.app.models import ResponseBody
+from hw_pp import PARAMS
+
 
 class Model:
     def __init__(self):

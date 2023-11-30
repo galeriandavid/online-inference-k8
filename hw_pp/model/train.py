@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import f1_score, classification_report
 
-from src import PARAMS
+from hw_pp import PARAMS
 
 if __name__ == "__main__":
     logging.info("Prepare data")
