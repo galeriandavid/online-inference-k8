@@ -1,5 +1,0 @@
-data_path: data/iris.csv
-model_path: model/model.joblib
-metrics_path: model/metrics.json
-SEED: 42
-test_size: 0.2

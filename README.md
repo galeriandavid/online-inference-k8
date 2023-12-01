@@ -1,6 +1,6 @@
 <div>
     <a href="https://github.com/galeriandavid/online-inference-k8/actions/workflows/test.yaml"><img src="https://github.com/galeriandavid/online-inference-k8/actions/workflows/test.yaml/badge.svg"></a>
-    <a href="https://github.com/galeriandavid/online-inference-k8/actions/workflows/pypi.yaml"><img src="https://github.com/galeriandavid/online-inference-k8/actions/workflows/pypi.yaml/badge.svg"></a>
+    <a href="https://test.pypi.org/project/hw-pp/#files"><img src="https://github.com/galeriandavid/online-inference-k8/actions/workflows/pypi.yaml/badge.svg"></a>
 </div>
 
 ## Online inference with FastAPI and kubernetes
@@ -45,4 +45,15 @@ Repository provides an example of running online inference with FastAPI and kube
     ```bash
     kubectl delete deployment test-ml-score-api
     kubectl delete service test-ml-score-api-lb
+    ```
+
+## Install using pip
+
+1. Install
+    ```bash
+    pip install -i https://test.pypi.org/simple/ hw-pp
+    ```
+2. Start
+    ```bash
+    iris
     ```

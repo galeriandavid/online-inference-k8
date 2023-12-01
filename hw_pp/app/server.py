@@ -2,10 +2,8 @@ from fastapi import FastAPI
 from typing import List
 import uvicorn
 
-from hw_pp import PARAMS
 from hw_pp.app.models import RequestBody, ResponseBody
 from hw_pp.model import Model
-
 
 
 app = FastAPI()

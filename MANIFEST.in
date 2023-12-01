@@ -1,2 +1,1 @@
-include params.yaml
-include model/model.joblib
+include hw_pp/model/model_file/model.joblib

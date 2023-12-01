@@ -1,13 +1,11 @@
 from joblib import load
 import pandas as pd
-import logging
-
-from hw_pp import PARAMS
+import hw_pp
 
 
 class Model:
     def __init__(self):
-        self.clf = load(PARAMS["model_path"])
+        self.clf = load(hw_pp.__path__[0]+"/model/model_file/model.joblib")
 
     async def predict(self, X):
         X = pd.DataFrame([sample.dict() for sample in X])
