@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='hw_pp',
-    version='0.1.6',
+    version='0.1.7',
     description="A small example package for iris prediction app",
     classifiers = [
         "Programming Language :: Python :: 3",
@@ -18,7 +18,6 @@ setup(
         "pandas==2.0.3",
         "anyio==3.6.1",
         "pydantic==1.10.12",
-        "ruamel-yaml==0.17.32",
         "fastapi[all]==0.85.2",
         "scikit-learn==1.3.2"
     ],
