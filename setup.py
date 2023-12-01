@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='hw_pp',
-    version='0.1.8',
+    version='0.1.9',
     description="A small example package for iris prediction app",
     classifiers = [
         "Programming Language :: Python :: 3",
@@ -13,7 +13,7 @@ setup(
     author='David',
     author_email='galeriandavid@gmail.com',
     license='MIT',
-    packages=['hw_pp'],
+    packages=find_packages(),
     install_requires=[
         "pandas==2.0.3",
         "anyio==3.6.1",
