@@ -15,6 +15,13 @@ setup(
     author_email='galeriandavid@gmail.com',
     license='MIT',
     packages=find_packages(),
+    requires=[
+        "pandas==2.0.3",
+        "anyio==3.6.1",
+        "pydantic==1.10.12",
+        "fastapi[all]==0.85.2",
+        "scikit-learn==1.3.2"
+    ],
     install_requires=[
         "pandas==2.0.3",
         "anyio==3.6.1",
