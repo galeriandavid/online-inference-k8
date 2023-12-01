@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='hw_pp',
-    version='0.1.10',
+    version='0.1.11',
     description="A small example package for iris prediction app",
     classifiers = [
         'Programming Language :: Python :: 3.8',
@@ -16,7 +16,7 @@ setup(
     license='MIT',
     packages=find_packages(),
     install_requires=[
-        "pandas==1.4.4",
+        "pandas==2.0.3",
         "anyio==3.6.1",
         "pydantic==1.10.12",
         "fastapi[all]==0.85.2",
